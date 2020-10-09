@@ -2,12 +2,12 @@
 //Give the object one property called complain. complain's value should be a method (a function) which logs the string "Meow!".
 
 const cat = {
-complain: function() { 
+complain: function sounds() { 
     console.log("Meow!");
 }
 };
 
-cat.complain();
+cat.sounds();
 
 //Question 2:Select the h3 from the HTML using the querySelector method and assign it to a variable called heading.
 //Change its innerHTML value to "Updated heading".
